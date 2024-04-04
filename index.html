@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Acme Filmes CMS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="js/main.js" defer></script>
+  <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+            }
+          }
+        }
+      </script>
+ 
+</head>
+<body class="w-screen h-screen bg-gradient-to-b from to-black to-70% from-black flex">
+
+   
+
+    <div class="bg-gradient-to-b from-slate-900  via-black to-slate-500  w-64 h-full ">
+        <img class="bg-left-top ml-6" src="./icons/Logo.png" alt="">
+        <div class="bg-slate-200 w-30 h-0.5" ></div>
+        <button class="bg-red-600 w-44 h-20 m-6 flex rounded justify-center items-center" id="botao">
+            <img class="w-10 h-10" src="/icons/add.png" alt="">
+            <p>ADD CONTEUDO</p>
+        </button>
+        <div class="grid justify-center">
+            <p class="text-white font-bold text-2xl cursor-pointer hover:text-red-600 ">Produtos</p>
+        </div>
+    </div>
+    <a href="#">
+        <img class="object-left-top w-10 h-10 m-10" src="./icons/lupa.png" alt="" style="position: relative; left: 170vh;">
+    </a>
+    
+    <div class="w-full h-full mt-40 m-4 bg-white flex" style="height: 80vh;"></div>
+    
+    
+</body>
+</html>
